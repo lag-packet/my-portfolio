@@ -58,6 +58,20 @@ const About = () => {
                     </h1>
 
                     <div className="project-box">
+                        <h2>Full Stack MERN Gym Tracker Website (Javascript, MongoDB)</h2>
+                        <p>A full-stack MERN application that serves as an intuitive and efficient workout tracker,
+                             demonstrating my proficiency in web development and the MERN technology stack.</p>
+                        <h3>Key Features:</h3>
+                        <ul>
+                            <li>User-friendly interface: The application boasts an easily navigable and visually appealing design, allowing users to manage their workouts effortlessly.</li>
+                            <li>CRUD functionality: Users can seamlessly add, update, and delete workouts, ensuring complete control over their fitness data.</li>
+                            <li>Robust API: The application is powered by a well-designed API, facilitating smooth data management and communication between the front-end and back-end.</li>
+                            <li>MongoDB integration: The application leverages MongoDB for efficient and scalable storage and retrieval of workout information.</li>
+                            <li>Responsive design: The application is designed to adapt to various screen sizes, ensuring an optimal viewing experience across devices.</li>
+                        </ul>
+                    </div>
+
+                    <div className="project-box">
                         <h2>Discord API & RuneScape Node.js HTTP Server (Javascript, Node.js)</h2>
                         <p>Efficient Discord-RuneScape integration built with Node.js, showcasing a ability to create real-time data relays between popular platforms.
                             Leveraging robust server-side development,
