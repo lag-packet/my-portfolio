@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Satar Hassni</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header class="header">
+      <h1 class="greeting">Hi, I'm Satar!</h1>
+    </header>
+
+    <div class="avatar-wrap">
+      <img
+        class="avatar"
+        src="https://media.licdn.com/dms/image/v2/D4E03AQGQA_6bkauKhQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1685853330545?e=2147483647&v=beta&t=McUdOr11IAaJxwnaiMbEjJbuNACEEihiHVBpEpocaf4"
+        alt="Photo of Satar Hassni"
+        width="320"
+        height="320"
+      />
+    </div>
+
+    <nav class="actions" aria-label="Contact">
+      <a
+        class="btn btn-primary"
+        href="https://www.linkedin.com/in/satar-hassni/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View LinkedIn
+      </a>
+
+      <a
+        class="btn"
+        href="mailto:satarhassni0@gmail.com?subject=Hello%20from%20your%20portfolio"
+        aria-label="Send email to your gmail"
+      >
+        Email Me
+      </a>
+    </nav>
+
+    <footer class="footer">
+      <p class="small">© <span id="year"></span> Satar Hassni</p>
+    </footer>
+  </main>
+
+  <script>
+    // Small script to set year (keeps HTML static)
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
