@@ -68,6 +68,10 @@
   border-bottom: 1px solid var(--border);
 }
 
+.cardClickable {
+  cursor: pointer;
+}
+
 .cardAccent {
   position: absolute;
   left: -1px;

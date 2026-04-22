@@ -44,11 +44,12 @@ export default function Projects() {
           {projects.map((project, i) => (
             <motion.article
               key={project.name}
-              className={styles.card}
+              className={`${styles.card}${project.live ? ` ${styles.cardClickable}` : ''}`}
               role="listitem"
               initial={{ opacity: 0, y: 32 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7, delay: 0.15 + i * 0.13, ease: [0.16, 1, 0.3, 1] }}
+              onClick={project.live ? () => window.open(project.live, '_blank', 'noopener,noreferrer') : undefined}
             >
               <div className={styles.cardAccent} aria-hidden="true" />
               <div className={styles.cardNum} aria-hidden="true">
@@ -75,6 +76,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className={styles.cardLink}
                   aria-label={`${project.name} source on GitHub`}
+                  onClick={(e) => e.stopPropagation()}
                 >
                   GitHub <ArrowIcon />
                 </a>
@@ -85,6 +87,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className={styles.cardLink}
                     aria-label={`${project.name} live site`}
+                    onClick={(e) => e.stopPropagation()}
                   >
                     Live <ArrowIcon />
                   </a>

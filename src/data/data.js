@@ -49,7 +49,7 @@ export const projects = [
       'Community Roblox private server directory supporting 4+ games — RESTful API with ExpressJS and MySQL for server submissions, dynamic search and per-game filtering, and a backend validation pipeline to keep listings active and accurate.',
     tech: ['React', 'Vite', 'Node.js', 'Express', 'MySQL'],
     github: 'https://github.com/lag-packet',
-    live: null,
+    live: 'https://blox.network',
     year: '2024',
   },
   {
