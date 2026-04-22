@@ -9,10 +9,10 @@ export const personal = {
 }
 
 export const about = {
-  bio: `Satar Hassni is a full stack software engineer based in New York City,
+  bio: `Full stack software engineer based in New York City,
   specializing in production web applications across the entire stack. A Computer
   Science graduate from Queens College (2023), with hands-on experience at
-  BlueVoyant building Go and Vue.js systems, and at Open Avenues applying machine
+  building Go and Vue.js systems, and applying machine
   learning with PyTorch. Currently freelancing while building toward a full-time
   role where clean engineering and real product impact intersect.`,
   stats: [
